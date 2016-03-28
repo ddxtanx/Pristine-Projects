@@ -1,0 +1,127 @@
+html {
+  background: url(ForestPhoto.jpg) fixed !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+    height:100%;
+    width:100%;
+}
+
+.button-link {
+  float: right;
+  font-size: 30px;
+  padding-left: 20px;
+  color: #AACCBA;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+.button-link:hover {
+  color: #88FF00;
+}
+
+.titleslot {
+  font-size: 40px;
+  color: #AACCBA;
+  font-family: 'Montserrat';
+  text-decoration: none;
+}
+
+#mainslot {
+  text-align: center;
+}
+
+#jumbotron {
+  font-size: 40px;
+  color: #AA77FF;
+  font-family: 'Raleway';
+}
+
+#schpeel {
+  font-size: 20px;
+  color: #AACCBA;
+  font-family: sans-serif;
+}
+
+.button-l {
+  color: #AACCBA;
+  text-decoration: none;
+}
+
+.button-l:hover {
+  color: #88FF00;
+}
+
+#project-site {
+  position: absolute;
+  top: 300px;
+  left: 5%;
+}
+
+#pmain {
+  position: absolute;
+  left: 45%;
+  top: 200px;
+  font-size: 35px;
+  text-decoration: none;
+  color: #AA77FF;
+  font-family: 'Raleway';
+}
+
+#img-schp {
+  color: #CCEEAA;
+  position: absolute;
+  left: 30px;
+  font-size: 20px;
+  font-family: 'Raleway';
+}
+
+#removtextdecor {
+  text-decoration: none !important
+}
+
+#imag {
+  max-width: 350px;
+  max-height: 150px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 60px;
+  right: 20px;
+}
+
+#sndh {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+#foot {
+  color: #AACCBA;
+  font-family: 'Montserrat';
+}
+#proj2{
+    position: absolute;
+    left:42%;
+    top:250px;
+    padding:30px
+}
+#proj3{
+    position: absolute;
+    left:70%;
+    top:250px;
+    padding:30px;
+}
+#name {
+  font-size: 20px;
+  color: #AACCBA;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+#cites{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

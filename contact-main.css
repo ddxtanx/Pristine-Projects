@@ -1,0 +1,81 @@
+html{
+	background: url(ForestPhoto.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.button-link{
+	float:right;
+	display:inline;
+	font-size:30px;
+	padding-left:20px;
+	color:#AACCBA;
+	text-decoration: none;
+	font-family: 'Montserrat';
+}
+.button-link:hover{
+	color:#88FF00;
+}
+.titleslot{
+	font-size:40px;
+	color:#AACCBA;
+	font-family:'Montserrat';
+	text-decoration: none;
+}
+#mainslot{
+	float: center;
+	text-align:center;
+}
+#footer{
+	position:absolute;
+	bottom:60px;
+	right:20px;
+}
+#sndh{
+	position:absolute;
+	bottom:40px;
+	right:20px;
+}
+#foot{
+	color:#AACCBA;
+	font-family: 'Montserrat';
+}
+.button-l{
+	color: #AACCBA;
+	text-decoration: none;
+}
+.button-l:hover{
+	color:#88FF00;
+}
+#jumbotron{
+	font-size:40px;
+	color:#AA33FF;
+	font-family:'Raleway';
+	text-align: center;
+	padding-top: 50px;
+}
+#contactschpeel{
+	text-align: center;
+	color: #AACCBA;
+	font-size:20px;
+	font-family:'Raleway';
+}
+#emaillink{
+	text-decoration: none;
+	color:#AACCBA;
+}
+#emaillink:hover{
+	color:#55FFFF;
+}
+#name {
+  font-size: 20px;
+  color: #AACCBA;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+#cites{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
