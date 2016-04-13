@@ -1,5 +1,5 @@
 html{
-	background: url(ForestPhoto.jpg) no-repeat center center fixed; 
+	background: url(../img/ForestPhoto.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,27 +55,18 @@ html{
 	text-align: center;
 	padding-top: 50px;
 }
-#contactschpeel{
-	text-align: center;
-	color: #AACCBA;
-	font-size:20px;
-	font-family:'Raleway';
-}
-#emaillink{
-	text-decoration: none;
+#abmescpheel{
 	color:#AACCBA;
+	font-family: 'Montserrat';
+	font-size:25px;
 }
-#emaillink:hover{
-	color:#55FFFF;
+#codelink{
+	text-decoration: none;
+	color: #AAFFBA;
 }
-#name {
-  font-size: 20px;
-  color: #AACCBA;
-  text-decoration: none;
-  font-family: 'Montserrat';
+#codelink:hover{
+	color: #55FFFF;
 }
-#cites{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+#codelink:visited{
+	color:#00FFFF;
 }

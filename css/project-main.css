@@ -1,5 +1,5 @@
 html{
-	background: url(ForestPhoto.jpg) no-repeat center center fixed; 
+	background: url(../img/ForestPhoto.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,22 +35,22 @@ html{
 	color:#AA66FF;;
 	font-family:'Raleway';
 }
-#img-schp{
+.img-schp{
 	color:#CCEEAA;
 	position:absolute;
-	left:30px;
+	left:45px;
 	font-size:20px;
 	font-family: 'Raleway';
 }
 #project-site{
 	position:absolute;
-	top:200px;
-	left:5%;
+	top:325px;
+	left:65%;
 }
 #removtextdecor{
 	text-decoration: none !important
 }
-#imag{
+.imag{
 	max-width:350px;
 	max-height: 150px;
 }
@@ -75,26 +75,29 @@ html{
 .button-l:hover{
 	color:#88FF00;
 }
-#proj2{
-    position: absolute;
-    left:42%;
-    top:150px;
-    padding:30px
+#ur-img{
+	background: url(../img/ForestPhoto.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-#proj3{
-    position: absolute;
-    left:70%;
-    top:150px;
-    padding:30px;
+#urea{
+	position:absolute;
+	top:300px;
+	left:60px;
 }
-#name {
-  font-size: 20px;
-  color: #AACCBA;
-  text-decoration: none;
-  font-family: 'Montserrat';
+#u-schp{
+	left:45px;
 }
-#cites{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+#mov-bit{
+	margin-left: 25px;
+}
+#morecome{
+	position: absolute;
+	top:70%;
+	left:32%;
+}
+#text{
+	font-size: 40px;
 }

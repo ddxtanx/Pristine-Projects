@@ -1,9 +1,7 @@
 <DOCTYPE .html>
 <html>
 <link href='https://fonts.googleapis.com/css?family=Montserrat|Raleway' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="project-main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/project-main.css">
 <div id="navbar">
 	<div class="row">
 	<div class="col-md-3">
@@ -12,35 +10,36 @@
 	<div class="col-md-3">
 		<a href="projects.html" style="text-decoration: none;"><h class="button-link">Projects</h> </a>
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-6">
 		<a href="about.html" style="text-decoration: none;"><h class="button-link">About</h></a>
 	</div>
 	</div>
 <div id="removtextdecor" style="text-decoration: none;">
 	<a href="index.html" style="text-decoration: none;"><h class="titleslot"> Pristine Projects </h></a>
-    <h id="name"> By Garrett Credi</h>
 </div>
 </div>
 <div id="title">
 <p> My Projects </p>
 </div>
-<span id="project-div">
+<div id="project-div">
       <div id="project-site">
-        <img src="pristine.jpg" id="imag"/>
-        <p id="img-schp"> The Site You Are On Right Now! </p>
+				<a href="./index.html">
+        <img src="../img/pristine.jpg" class="imag"/>
+        <p class="img-schp"> The Site You Are On Right Now! </p>
+			</a>
       </div>
-    <div id="proj2"> 
-             <img src="http://placehold.it/140x100">
-             <h id="img-schp"> Site In Progress</h>
-          </div>
-        <div id="proj3"> 
-             <img src="http://placehold.it/140x100">
-             <h id="img-schp"> Site In Progress</h>
-          </div>
-</span>
+			<div id="urea">
+				<a href="http://u-react.herokuapp.com">
+				<img src="../img/u-react.jpg" class="imag"/>
+				<p class="img-schp" id="u-schp"> A Reaction Speed Tester <br/> <span id="mov-bit"> built with JavaScript!<span> </p>
+				</a>
+			</div>
+</div>
+<div id="morecome">
+	<p id="text" class="img-schp" style="width: 500px;"> More Coming Soon! </p>
+</div>
 	<div id="foot">
 		<h id="footer"> SITE BY <span> <a href="about.html" class="button-l">GARRETT CREDI </a> </span> </h>
 		<h id="sndh"> MADE IN 2016 </h>
-        <h id="cites">MADE WITH <span><a href="http://www.jquery.com" class="button-l">  jQuery</a></span> AND HTML/CSS</h>
 	</div>
 </html>

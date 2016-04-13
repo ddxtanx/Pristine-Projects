@@ -1,11 +1,9 @@
 html {
-  background: url(ForestPhoto.jpg) fixed !important;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
-    height:100%;
-    width:100%;
+  background: url(../img/ForestPhoto.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .button-link {
@@ -39,7 +37,7 @@ html {
 }
 
 #schpeel {
-  font-size: 20px;
+  font-size: 23px;
   color: #AACCBA;
   font-family: sans-serif;
 }
@@ -53,12 +51,6 @@ html {
   color: #88FF00;
 }
 
-#project-site {
-  position: absolute;
-  top: 300px;
-  left: 5%;
-}
-
 #pmain {
   position: absolute;
   left: 45%;
@@ -69,23 +61,26 @@ html {
   font-family: 'Raleway';
 }
 
-#img-schp {
-  color: #CCEEAA;
-  position: absolute;
-  left: 30px;
-  font-size: 20px;
-  font-family: 'Raleway';
+.img-schp{
+	color:#CCEEAA;
+	position:absolute;
+	left:45px;
+	font-size:20px;
+	font-family: 'Raleway';
 }
-
+#project-site{
+	position:absolute;
+	top:325px;
+	left:65%;
+}
 #removtextdecor {
   text-decoration: none !important
 }
 
-#imag {
-  max-width: 350px;
-  max-height: 150px;
+.imag{
+	max-width:350px;
+	max-height: 150px;
 }
-
 #footer {
   position: absolute;
   bottom: 60px;
@@ -102,26 +97,29 @@ html {
   color: #AACCBA;
   font-family: 'Montserrat';
 }
-#proj2{
-    position: absolute;
-    left:42%;
-    top:250px;
-    padding:30px
+#ur-img{
+	background: url(../img/ForestPhoto.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-#proj3{
-    position: absolute;
-    left:70%;
-    top:250px;
-    padding:30px;
+#urea{
+	position:absolute;
+	top:300px;
+	left:60px;
 }
-#name {
-  font-size: 20px;
-  color: #AACCBA;
-  text-decoration: none;
-  font-family: 'Montserrat';
+#u-schp{
+	left:45px;
 }
-#cites{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+#mov-bit{
+	margin-left: 25px;
+}
+#morecome{
+	position: absolute;
+	top:70%;
+	left:32%;
+}
+#text{
+	font-size: 40px;
 }
